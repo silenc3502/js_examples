@@ -3,10 +3,16 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import DataType from './data_type/DataType';
 import reportWebVitals from './reportWebVitals';
+import LetVariable from "./let_var/LetVariable";
+import ConstItemArr from "./const_arr/ConstItemArr";
+import SymbolTest from "./symbol/SymbolTest";
 
 ReactDOM.render(
   <React.StrictMode>
     <DataType/>
+    <LetVariable/>
+    <ConstItemArr/>
+    <SymbolTest/>
   </React.StrictMode>,
   document.getElementById('root')
 );
