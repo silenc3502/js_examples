@@ -29,3 +29,15 @@ sudo apt install code
 
 code
 ```
+
+# How to upgrade npm  
+
+You need to upgrade npm when see below errors.  
+
+```make
+You are running `create-react-app` 4.0.0, which is behind the latest release (4.0.1).
+```
+
+```make
+sudo npm install -g npm
+```
