@@ -1,18 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import CoincidenceTest from './coincidence_test/CoincidenceTest';
-import EqualsTest from './equals_test/EqualsTest';
 import './index.css';
-import LiteralTest from './literal_test/LiteralTest';
+import App from './App';
 import reportWebVitals from './reportWebVitals';
-import TrueFalseDeterminant from './true_false_determinant/TrueFalseDeterminant';
 
 ReactDOM.render(
   <React.StrictMode>
-    <TrueFalseDeterminant/>
-    <EqualsTest/>
-    <CoincidenceTest/>
-    <LiteralTest/>
+    <App />
   </React.StrictMode>,
   document.getElementById('root')
 );
