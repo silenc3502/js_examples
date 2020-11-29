@@ -1,10 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import CoincidenceTest from './coincidence_test/CoincidenceTest';
+import DestructTest from './destruct_test/DestructTest';
 import EqualsTest from './equals_test/EqualsTest';
 import './index.css';
 import LiteralTest from './literal_test/LiteralTest';
 import reportWebVitals from './reportWebVitals';
+import SpreadTest from './spread_test/SpreadTest';
 import TrueFalseDeterminant from './true_false_determinant/TrueFalseDeterminant';
 
 ReactDOM.render(
@@ -13,6 +15,8 @@ ReactDOM.render(
     <EqualsTest/>
     <CoincidenceTest/>
     <LiteralTest/>
+    <DestructTest/>
+    <SpreadTest/>
   </React.StrictMode>,
   document.getElementById('root')
 );

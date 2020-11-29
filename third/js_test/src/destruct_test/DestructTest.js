@@ -40,11 +40,37 @@ function DestructTest() {
         "test1", "test2"
     ]
 
-    const [idx1, idx2, idx3] = arrTest
+    let [index1, index2, index3] = arrTest
 
-    console.log(idx1)
-    console.log(idx2)
-    console.log(idx3)
+    console.log(index1)
+    console.log(index2)
+    console.log(index3)
+
+    let arrayTest = [
+        "test1"
+    ]
+
+    let [id1, id2 = "default"] = arrayTest
+
+    console.log(id1)
+    console.log(id2)
+
+    let valueTest = [
+        "one", "two", "three"
+    ]
+
+    let [first, , third] = valueTest
+
+    console.log(first)
+    console.log(third)
+
+    valueTest = [
+        "one", "two", "three", "four", "five", "six", "seven"
+    ]
+
+    let [, ...res] = valueTest
+
+    console.log(res)
 
     return (
         <div className="DestructTest">
